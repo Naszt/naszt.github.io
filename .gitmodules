@@ -1,0 +1,4 @@
+[submodule "themes/nivis"]
+	path = themes/nivis
+	url = https://github.com/Resorie/zola-theme-nivis.git
+	branch = master
