@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Naszt</title>
+      <link>https://naszt.github.io</link>
+      <description>Naszt&#x27;s Blog</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://naszt.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 01 Jan 1980 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Configuration</title>
+          <pubDate>Tue, 01 Jan 1980 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://naszt.github.io/posts/configure/</link>
+          <guid>https://naszt.github.io/posts/configure/</guid>
+          <description xml:base="https://naszt.github.io/posts/configure/">&lt;h2 id=&quot;social-links&quot;&gt;Social Links&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis enables you to display some of your social links . Add your social links in &lt;code&gt;config.toml&lt;&#x2F;code&gt; according to the following example:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;social_links&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;github&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;username&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;email&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;mailto:your@email.com&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;twitter&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;twitter.com&#x2F;username&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;rss&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;&#x2F;atom.xml&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Supported icons include most brands (e.g., &lt;code&gt;github&lt;&#x2F;code&gt;, &lt;code&gt;twitter&lt;&#x2F;code&gt;, &lt;code&gt;bilibili&lt;&#x2F;code&gt;) and generic names like &lt;code&gt;email&lt;&#x2F;code&gt;, &lt;code&gt;rss&lt;&#x2F;code&gt;, &lt;code&gt;link&lt;&#x2F;code&gt;, &lt;code&gt;globe&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pinned-posts&quot;&gt;Pinned Posts&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis allows you to pin special posts so that they are placed at the frontmost of the post list. To pin posts, add the following to the front matter of your &lt;code&gt;posts&#x2F;_index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;pinned_posts&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;posts&#x2F;pinned_post1.md&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;posts&#x2F;pinned_post2.md&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;math-display&quot;&gt;Math display&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis theme supports MathJax for rendering math contents. Add this to your &lt;code&gt;config.toml&lt;&#x2F;code&gt; to enable math rendering:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;math_display&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;mathjax&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Due to Zola&#x27;s markdown escaping, some math content (especially &lt;code&gt;&amp;lt;&lt;&#x2F;code&gt;, &lt;code&gt;&amp;gt;&lt;&#x2F;code&gt;, &lt;code&gt;*&lt;&#x2F;code&gt; in LaTeX) may not render correctly. To handle this, run the provided script after adding or editing posts:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;shellscript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;python&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; themes&#x2F;nivis&#x2F;scripts&#x2F;wrap_math.py&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The script processes all markdown files in &lt;code&gt;content&#x2F;&lt;&#x2F;code&gt; and:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wraps inline math &lt;code&gt;$...$&lt;&#x2F;code&gt; in backticks (&lt;code&gt; &lt;&#x2F;code&gt;$...$&lt;code&gt; &lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;Wraps display math &lt;code&gt;$$...$$&lt;&#x2F;code&gt; in HTML &lt;code&gt;&amp;lt;div class=&quot;math-display&quot;&amp;gt;&lt;&#x2F;code&gt; tags&lt;&#x2F;li&gt;
+&lt;li&gt;HTML-escapes special characters (&lt;code&gt;&amp;lt;&lt;&#x2F;code&gt;, &lt;code&gt;&amp;gt;&lt;&#x2F;code&gt;, &lt;code&gt;&amp;amp;&lt;&#x2F;code&gt;) inside display math&lt;&#x2F;li&gt;
+&lt;li&gt;Can be safely re-run (idempotent)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;After processing, your math content will look like:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;This is an inline math example: &lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-raw z-markdown&quot;&gt;`&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inline z-raw z-string z-markdown&quot;&gt;$e^{\pi i}=-1$&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-raw z-markdown&quot;&gt;`&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;And this is a display math example:&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;$$&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;\sum_{i=1}^n i^3=\frac{n^2(n+1)^2}{4}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;$$&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If you prefer to process math manually, ensure that &lt;code&gt;&amp;lt;&lt;&#x2F;code&gt;, &lt;code&gt;&amp;gt;&lt;&#x2F;code&gt;, and &lt;code&gt;&amp;amp;&lt;&#x2F;code&gt; in LaTeX are HTML-escaped (&lt;code&gt;&amp;amp;lt;&lt;&#x2F;code&gt;, &lt;code&gt;&amp;amp;gt;&lt;&#x2F;code&gt;, &lt;code&gt;&amp;amp;amp;&lt;&#x2F;code&gt;) when using HTML wrappers.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;special-pages&quot;&gt;Special Pages&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis theme provides About page, Archives page, Categories page and Links page to help you fully customize your site. Move on to &lt;a href=&quot;https:&#x2F;&#x2F;naszt.github.io&#x2F;posts&#x2F;sp-pages&#x2F;&quot;&gt;Special Pages&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Getting Started</title>
+          <pubDate>Tue, 01 Jan 1980 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://naszt.github.io/posts/get-start/</link>
+          <guid>https://naszt.github.io/posts/get-start/</guid>
+          <description xml:base="https://naszt.github.io/posts/get-start/">&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
+&lt;p&gt;Use &lt;code&gt;git submodule&lt;&#x2F;code&gt; to add the theme to your site:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;shellscript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;git&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; submodule&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; add&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;b&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; master&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;-depth=1&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; https:&#x2F;&#x2F;github.com&#x2F;Resorie&#x2F;zola-theme-nivis.git&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; themes&#x2F;nivis&#x2F;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;git&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; submodule&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; update&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;-init&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;-recursive&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Then, change your theme config in &lt;code&gt;config.toml&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;theme&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;nivis&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Start your site by copying the example content and data into your site folder:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;shellscript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;r&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; themes&#x2F;nivis&#x2F;content&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; content&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;r&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; themes&#x2F;nivis&#x2F;data&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; data&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If you want to update the nivis theme, run the following command:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;shellscript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;git&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; submodule&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt; update&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;-remote&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; -&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;-merge&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;basic-configs&quot;&gt;Basic Configs&lt;&#x2F;h2&gt;
+&lt;p&gt;The following is a basic template for your &lt;code&gt;config.toml&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;base_url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;yours.site&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;title&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Your Title&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;description&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Your blog&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;theme&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;nivis&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;generate_feeds&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;feed_filenames&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;rss.xml&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;atom.xml&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;compile_sass&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;taxonomies&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;span&gt;{&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;tags&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; paginate_by&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-numeric&quot;&gt; 5&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;markdown&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;render_emoji&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;github_alerts&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;bottom_footnotes&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;markdown&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;highlighting&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;style&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;light_theme&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;one-light&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;dark_theme&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;one-dark-pro&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;main_section&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;posts&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;avatar&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;images&#x2F;avatar.jpeg&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-comment&quot;&gt; #&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment&quot;&gt; In static&#x2F; folder&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment&quot;&gt;#&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment&quot;&gt; Social links&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;social_links&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;github&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;your_username&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Move on to &lt;a href=&quot;https:&#x2F;&#x2F;naszt.github.io&#x2F;posts&#x2F;configure&#x2F;&quot;&gt;Configuration&lt;&#x2F;a&gt; for advanced configurations.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;If you like this theme, please give it a star on &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Resorie&#x2F;zola-theme-nivis&quot;&gt;github&lt;&#x2F;a&gt;. 😘&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Markdown Example</title>
+          <pubDate>Tue, 01 Jan 1980 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://naszt.github.io/posts/md-example/</link>
+          <guid>https://naszt.github.io/posts/md-example/</guid>
+          <description xml:base="https://naszt.github.io/posts/md-example/">&lt;p&gt;Generated by Gemini3 😄&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;text-basics&quot;&gt;Text Basics&lt;&#x2F;h2&gt;
+&lt;p&gt;You can make text &lt;strong&gt;bold&lt;&#x2F;strong&gt; or &lt;em&gt;italic&lt;&#x2F;em&gt;.
+You can also use &lt;del&gt;strikethrough&lt;&#x2F;del&gt; or highlight &lt;code&gt;inline code&lt;&#x2F;code&gt; variables.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
+&lt;p&gt;Acknowledge that we recommend using &lt;code&gt;h1&lt;&#x2F;code&gt; (in markdown, single &lt;code&gt;#&lt;&#x2F;code&gt;) only for the title (that is, the &lt;code&gt;title&lt;&#x2F;code&gt; attribute in front matter). The titles in post content should start with &lt;code&gt;h2&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;h3&quot;&gt;h3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;h4&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;code&gt;h5&lt;&#x2F;code&gt; and &lt;code&gt;h6&lt;&#x2F;code&gt; are not recommended to use. (Actually I didn&#x27;t implement a style for them lol) Try use lists to replace them.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;lists-checkboxes&quot;&gt;Lists &amp;amp; Checkboxes&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Unordered List:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;&#x2F;li&gt;
+&lt;li&gt;Banana
+&lt;ul&gt;
+&lt;li&gt;Cavendish&lt;&#x2F;li&gt;
+&lt;li&gt;Plantain&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Cherry&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Ordered List:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Initialize repo&lt;&#x2F;li&gt;
+&lt;li&gt;Stage files&lt;&#x2F;li&gt;
+&lt;li&gt;Commit&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;strong&gt;Task List:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Draft content&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Review for typos&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Publish&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;links-images&quot;&gt;Links &amp;amp; Images&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.google.com&quot;&gt;Click here for Google&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;via.placeholder.com&#x2F;150&quot; alt=&quot;Placeholder Image&quot; title=&quot;Tooltip Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Python:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;python&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-storage&quot;&gt;def&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt; greet&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-parameters&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-variable z-parameter z-function z-language z-python&quot;&gt;name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-parameters&quot;&gt;)&lt;&#x2F;span&gt;&lt;span&gt;:&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-keyword z-control&quot;&gt;    return&lt;&#x2F;span&gt;&lt;span class=&quot;z-storage&quot;&gt; f&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Hello, &lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-constant z-character z-format z-placeholder z-other z-python&quot;&gt;{&lt;&#x2F;span&gt;&lt;span&gt;name&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-constant z-character z-format z-placeholder z-other z-python&quot;&gt;}&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;!&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-storage&quot;&gt;const&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-constant z-js z-variable z-other z-constant&quot;&gt; numbers&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-keyword z-operator z-assignment&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-square z-js z-meta z-brace z-square&quot;&gt; [&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-numeric&quot;&gt;1&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-comma&quot;&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-numeric&quot;&gt; 2&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-comma&quot;&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-numeric&quot;&gt; 3&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-square z-js z-meta z-brace z-square&quot;&gt;]&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-statement z-js&quot;&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable z-other z-object z-js z-variable z-other z-object&quot;&gt;numbers&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;forEach&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-js&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-variable&quot;&gt;num&lt;&#x2F;span&gt;&lt;span class=&quot;z-storage&quot;&gt; =&amp;gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-object z-js z-variable z-other z-object&quot;&gt; console&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function&quot;&gt;log&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-js&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-js z-variable z-other z-readwrite&quot;&gt;num&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-js&quot;&gt;)&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-brace z-round z-js&quot;&gt;)&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-statement z-js&quot;&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Feature&lt;&#x2F;th&gt;&lt;th&gt;Supported&lt;&#x2F;th&gt;&lt;th&gt;Notes&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Tables&lt;&#x2F;td&gt;&lt;td&gt;Yes&lt;&#x2F;td&gt;&lt;td&gt;Pipes and dashes&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Alignment&lt;&#x2F;td&gt;&lt;td&gt;Yes&lt;&#x2F;td&gt;&lt;td&gt;Colons define it&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Complexity&lt;&#x2F;td&gt;&lt;td&gt;Low&lt;&#x2F;td&gt;&lt;td&gt;Keep it simple&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;math-formulas-latex&quot;&gt;Math Formulas (LaTeX)&lt;&#x2F;h2&gt;
+&lt;p&gt;Markdown renders math using LaTeX syntax. Refer to the &lt;a href=&quot;https:&#x2F;&#x2F;naszt.github.io&#x2F;posts&#x2F;configure&#x2F;&quot;&gt;configuration post&lt;&#x2F;a&gt; for how to use it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Inline:&lt;&#x2F;strong&gt; The mass-energy equivalence is &lt;code&gt;$e=mc^2$&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Block (Display):&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;math-display&quot;&gt;$$
+f(x)=\int_{-\infty}^\infty \hat f(\xi)e^{2\pi i\xi x}d\xi
+$$&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Code is like humor. When you have to explain it, it’s bad.&quot;
+— &lt;em&gt;Cory House&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;github-style-alerts&quot;&gt;GitHub-Style Alerts&lt;&#x2F;h2&gt;
+&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+&lt;p&gt;This is a note useful for the reader.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-tip&quot;&gt;
+&lt;p&gt;Here is a helpful tip to improve your workflow.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-important&quot;&gt;
+&lt;p&gt;This information is crucial for correct functionality.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-warning&quot;&gt;
+&lt;p&gt;Be careful! This action might have side effects.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-caution&quot;&gt;
+&lt;p&gt;This action causes data loss. Proceed with extreme care.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h2&gt;
+&lt;p&gt;Here is a sentence with a footnote reference&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;&#x2F;h2&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;(The line above is a horizontal rule)&lt;&#x2F;p&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;This is the actual footnote content at the bottom of the page. &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;section&gt;
+</description>
+      </item>
+      <item>
+          <title>Shortcodes</title>
+          <pubDate>Tue, 01 Jan 1980 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://naszt.github.io/posts/shortcodes/</link>
+          <guid>https://naszt.github.io/posts/shortcodes/</guid>
+          <description xml:base="https://naszt.github.io/posts/shortcodes/">&lt;p&gt;Nivis provides various shortcodes for you to use in your posts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
+&lt;p&gt;To place an image in your post with alt text and message.&lt;&#x2F;p&gt;
+&lt;p&gt;Template:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;{{ image(src=&amp;quot;img src&amp;quot;, alt=&amp;quot;alt text&amp;quot;, caption=&amp;quot;caption text&amp;quot;) }}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Example:&lt;&#x2F;p&gt;
+ 
+&lt;figure &gt;
+  &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;naszt.github.io&amp;#x2F;img src&quot; alt=&quot;alt text&quot; &#x2F;&gt;
+  &lt;figcaption&gt;caption text&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+
+&lt;h2 id=&quot;collapse&quot;&gt;Collapse&lt;&#x2F;h2&gt;
+&lt;p&gt;To place a collapse box in your post. Folded up by default, set &lt;code&gt;unfold&lt;&#x2F;code&gt; to true to unfold it by default.&lt;&#x2F;p&gt;
+&lt;p&gt;Template:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;{% collapse(summary=&amp;quot;Summary&amp;quot;) %}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Content hidden by default.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;{% end %}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;{% collapse(summary=&amp;quot;Summary&amp;quot;, unfold=true) %}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Content shown by default.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;{% end %}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Example:&lt;&#x2F;p&gt;
+&lt;details class=&quot;collapse-block&quot; &gt;
+  &lt;summary class=&quot;collapse-summary&quot;&gt;
+    &lt;span class=&quot;collapse-title&quot;&gt;Summary&lt;&#x2F;span&gt;
+    &lt;span class=&quot;collapse-icon&quot;&gt;&lt;&#x2F;span&gt;
+  &lt;&#x2F;summary&gt;
+  &lt;div class=&quot;collapse-content&quot;&gt;&lt;p&gt;Content hidden by default.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;details&gt;
+&lt;details class=&quot;collapse-block&quot; open&gt;
+  &lt;summary class=&quot;collapse-summary&quot;&gt;
+    &lt;span class=&quot;collapse-title&quot;&gt;Summary&lt;&#x2F;span&gt;
+    &lt;span class=&quot;collapse-icon&quot;&gt;&lt;&#x2F;span&gt;
+  &lt;&#x2F;summary&gt;
+  &lt;div class=&quot;collapse-content&quot;&gt;&lt;p&gt;Content shown by default.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;details&gt;
+</description>
+      </item>
+      <item>
+          <title>Special Pages</title>
+          <pubDate>Tue, 01 Jan 1980 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://naszt.github.io/posts/sp-pages/</link>
+          <guid>https://naszt.github.io/posts/sp-pages/</guid>
+          <description xml:base="https://naszt.github.io/posts/sp-pages/">&lt;p&gt;Nivis theme provides About page, Archives page, Categories page and Links page to help you fully customize your site.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;enable-disable-sections&quot;&gt;Enable&#x2F;Disable Sections&lt;&#x2F;h2&gt;
+&lt;p&gt;By default, all 5 sections (posts, archives, tags, about, links) are enabled in &lt;code&gt;theme.toml&lt;&#x2F;code&gt;. They appear in the navigation bar automatically. If you want to disable a specific section, set it to &lt;code&gt;false&lt;&#x2F;code&gt; in your &lt;code&gt;config.toml&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;sections&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;links&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt; false&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;You don&#x27;t need to declare sections you want to keep enabled — only override the ones you want to hide.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;about-page&quot;&gt;About Page&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis provides an about page to introduce yourself. Create &lt;code&gt;content&#x2F;about&#x2F;index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;title = &amp;quot;About Me&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;template = &amp;quot;about.html&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Show yourself! :smile:&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;archive-page&quot;&gt;Archive Page&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis shows all your posts sorted by publish time in the archives page. Create &lt;code&gt;content&#x2F;archive&#x2F;index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;title = &amp;quot;Archives&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;template = &amp;quot;archive.html&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;categories-page&quot;&gt;Categories Page&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis lists all your post tags in categories page. Clicking on the tag directs you to the lists of all posts with the tag. Create &lt;code&gt;content&#x2F;tags&#x2F;_index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;title = &amp;quot;Categories&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;template = &amp;quot;tags&#x2F;list.html&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;friend-links&quot;&gt;Friend Links&lt;&#x2F;h2&gt;
+&lt;p&gt;Nivis suppors a page to display links to your friends&#x27; site. First, create &lt;code&gt;content&#x2F;links&#x2F;index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;title = &amp;quot;Links&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;template = &amp;quot;links.html&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;+++&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;Friend Links. &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;The content here will be shown if &lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-raw z-markdown&quot;&gt;`&lt;&#x2F;span&gt;&lt;span class=&quot;z-markup z-inline z-raw z-string z-markdown&quot;&gt;extra.show_content&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-raw z-markdown&quot;&gt;`&lt;&#x2F;span&gt;&lt;span&gt; is set to true in the front matter.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Then, create &lt;code&gt;data&#x2F;links.toml&lt;&#x2F;code&gt;. The theme will generate the page from this file. Follow the syntax:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;groups&lt;&#x2F;span&gt;&lt;span&gt;]]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Friends&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;items&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment&quot;&gt;    #&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment&quot;&gt; Add your friends here&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Someone&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;example.site&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; description&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Description&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; avatar&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Your Friend&amp;#39;s Avatar&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;[[&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-section&quot;&gt;groups&lt;&#x2F;span&gt;&lt;span&gt;]]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Projects&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-variable&quot;&gt;items&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt; [&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;Zola&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; url&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;www.getzola.org&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; description&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;The static site generator used for this blog.&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable&quot;&gt; avatar&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value&quot;&gt; =&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;43047029&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt; }&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-array&quot;&gt;]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</description>
+      </item>
+    </channel>
+</rss>

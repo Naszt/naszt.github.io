@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Naszt</title>
+	<subtitle>Naszt&#x27;s Blog</subtitle>
+	<link href="https://naszt.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://naszt.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>1980-01-01T00:00:00+00:00</updated>
+	<id>https://naszt.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Configuration</title>
+		<published>1980-01-01T00:00:00+00:00</published>
+		<updated>1980-01-01T00:00:00+00:00</updated>
+		<link href="https://naszt.github.io/posts/configure/" type="text/html"/>
+		<id>https://naszt.github.io/posts/configure/</id>
+		<summary>configuration guide</summary>
+		
+	</entry>
+	<entry xml:lang="en">
+		<title>Getting Started</title>
+		<published>1980-01-01T00:00:00+00:00</published>
+		<updated>1980-01-01T00:00:00+00:00</updated>
+		<link href="https://naszt.github.io/posts/get-start/" type="text/html"/>
+		<id>https://naszt.github.io/posts/get-start/</id>
+		<summary>getting started with nivis</summary>
+		
+	</entry>
+	<entry xml:lang="en">
+		<title>Markdown Example</title>
+		<published>1980-01-01T00:00:00+00:00</published>
+		<updated>1980-01-01T00:00:00+00:00</updated>
+		<link href="https://naszt.github.io/posts/md-example/" type="text/html"/>
+		<id>https://naszt.github.io/posts/md-example/</id>
+		<summary>markdown examples</summary>
+		
+	</entry>
+	<entry xml:lang="en">
+		<title>Shortcodes</title>
+		<published>1980-01-01T00:00:00+00:00</published>
+		<updated>1980-01-01T00:00:00+00:00</updated>
+		<link href="https://naszt.github.io/posts/shortcodes/" type="text/html"/>
+		<id>https://naszt.github.io/posts/shortcodes/</id>
+		<summary>shortcodes in Nivis theme</summary>
+		
+	</entry>
+	<entry xml:lang="en">
+		<title>Special Pages</title>
+		<published>1980-01-01T00:00:00+00:00</published>
+		<updated>1980-01-01T00:00:00+00:00</updated>
+		<link href="https://naszt.github.io/posts/sp-pages/" type="text/html"/>
+		<id>https://naszt.github.io/posts/sp-pages/</id>
+		<summary>special pages in Nivis theme</summary>
+		
+	</entry>
+</feed>
