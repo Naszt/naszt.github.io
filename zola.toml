@@ -1,16 +1,48 @@
-# The URL the site will be built for
+# 网页 URL
 base_url = "https://naszt.github.io"
+
+# 网站标题和描述
+title = "Naszt"
+description = "Naszt's Blog"
+
+# 启用主题
+theme = "nivis"
+
+# 生成 RSS/Atom 订阅源
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+# 分页
+taxonomies = [{ name = "tags", paginate_by = 5 }]
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+
+
 [markdown]
+render_emoji = true
+github_alerts = true
+bottom_footnotes = true
 
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+style = "class"
+light_theme = "one-light"
+dark_theme = "one-dark-pro"
+extra_grammars = [ "themes/nivis/syntaxes/math-display.json" ]
 
 [extra]
-# Put all your custom variables here
+author = "Naszt"
+main_section = "posts"
+avatar = "images/avatar.jpeg"
+
+math_display = "mathjax"
+
+social_links = [
+    { name = "github", url = "https://github.com/Naszt" },
+    { name = "email", url = "mailto:Naszt@outlook.com" },
+    { name = "bilibili", url = "https://space.bilibili.com/691227334" },
+]
